@@ -6,8 +6,8 @@ public class Todo {
 	
 	static void main(args) {
 		def todos = [
-			new Todo("Learn Groovy!!!"),
-			new Todo("Learn AngularJS!!!")
+			new Todo([description: "Learn Groovy!!!"]),
+			new Todo([description: "Learn AngularJS!!!"])
 		]		
 		
 		todos.each { todo ->
